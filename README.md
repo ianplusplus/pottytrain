@@ -1,4 +1,4 @@
-# pottytrain
+# Potty Train!
 All aboard the potty train!
 
 I want to start writting a program that will help my son go to the bathroom:
