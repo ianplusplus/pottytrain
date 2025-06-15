@@ -19,7 +19,7 @@ class RewardChart:
     def draw_canvas(self):
         
         for index, has_reward in enumerate(self.child.records):
-            if has_reward:
+            if has_reward and index < self.child.records_current:
                 row = index // self.child.major_reward
                 col = index % self.child.major_reward
 
