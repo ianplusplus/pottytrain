@@ -38,10 +38,3 @@ class RewardChart:
 
         canvas.show()
         canvas.save("reward_chart.png")
-
-    
-
-child = Child.LoadChildFromFile('Jackson')
-chart = RewardChart(child, 100)
-
-chart.draw_canvas()
