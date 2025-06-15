@@ -74,7 +74,7 @@ class Child:
         else:
             return False
 
-def main():
+#def main():
 
     #records_list = []
 
@@ -82,13 +82,13 @@ def main():
     #    records_list.append(False)
 
     #child = Child('Jackson', 30, 6, records_list, 0, 36)
-    child = Child.LoadChildFromFile('Jackson')
-    for i in range(1):
-        child.PottyAttempt(True)
+#    child = Child.LoadChildFromFile('Jackson')
+#    for i in range(1):
+ #       child.PottyAttempt(True)
 
-    print(child.CheckForMajorReward())
+ #   print(child.CheckForMajorReward())
 
-    child.SaveChild()
+  #  child.SaveChild()
 
-    print(child.records)
-main()
+   # print(child.records)
+#main()
