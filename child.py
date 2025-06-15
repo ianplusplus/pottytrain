@@ -51,6 +51,9 @@ class Child:
             file.write(str(self.records_current) + '\n')
             file.write(str(self.records_max) + '\n')
 
+        with open("options", "w") as file:
+            file.write(self.name)
+
     def PottyAttempt(self, outcome):
         if self.records_current >= self.records_max:
             self.records = []
@@ -73,22 +76,3 @@ class Child:
             return True
         else:
             return False
-
-#def main():
-
-    #records_list = []
-
-    #for i in range(36):
-    #    records_list.append(False)
-
-    #child = Child('Jackson', 30, 6, records_list, 0, 36)
-#    child = Child.LoadChildFromFile('Jackson')
-#    for i in range(1):
- #       child.PottyAttempt(True)
-
- #   print(child.CheckForMajorReward())
-
-  #  child.SaveChild()
-
-   # print(child.records)
-#main()
